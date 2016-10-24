@@ -7,6 +7,9 @@ public:
 	~DateT();
 	void Set(int DD, int MM, int YYYY);
 	void Print() const;
+	DateT &SetDay(int a);
+	DateT &SetMonth(int a);
+	DateT &SetYear(int a);
 
 private:
 	int D, M, Y;

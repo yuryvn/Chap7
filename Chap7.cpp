@@ -7,6 +7,8 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	EmployeeT Bmord("Borya", "mordshvilli", 10, 12, 1990, 31, 2);
+	Bmord.Print();
 	return 0;
 }
 
