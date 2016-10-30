@@ -64,6 +64,7 @@ EmployeeT::EmployeeT(char *Navn, char *SurNavn, int BD, int BM, int BY, int HD, 
 {
 	Name = Navn;
 	Surname = SurNavn;
+	counter++;
 }
 
 EmployeeT::~EmployeeT(){}
@@ -84,5 +85,11 @@ void EmployeeT::Print() const{
 	HireDate.Print();
 	cout << endl;
 
+}
+
+int EmployeeT::counter = 0;
+
+int EmployeeT::getCounter(){
+	return counter;
 }
 

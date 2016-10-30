@@ -27,6 +27,9 @@
     <ClInclude Include="ClassesChap7.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DynamicMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ClassesChap7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
